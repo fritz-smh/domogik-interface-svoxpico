@@ -1,0 +1,29 @@
+{
+    "json_version" : 2,
+    "identity": {
+        "author": "Fritz",
+        "author_email": "fritz.smh at gmail.com",
+        "tags": ["interface", "audio", "tts", "svoxpico"],
+        "dependencies": [],
+        "description": "Text to speech with Svox pico. The tts action is done on the local computer.",
+        "domogik_min_version": "0.4.1",
+        "name": "svoxpico",
+        "type": "interface",
+        "version": "1.0"
+    },
+    "configuration": [
+        {   
+            "default": "fr-FR",
+            "description": "Language : fr-FR, en-US, en-GB, de-DE, es-ES, it-IT",
+            "key": "language",
+            "name" : "Language",
+            "required": true,
+            "type": "string"
+        }
+    ],
+    "device_types": {},
+    "sensors": {},
+    "xpl_stats": {},
+    "commands": {},
+    "xpl_commands": {}
+}
