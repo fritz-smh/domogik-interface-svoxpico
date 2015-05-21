@@ -14,11 +14,12 @@
     "configuration": [
         {   
             "default": "fr-FR",
-            "description": "Language : fr-FR, en-US, en-GB, de-DE, es-ES, it-IT",
+            "description": "Language : fr-FR, en-US, en-GB, ...",
             "key": "language",
             "name" : "Language",
             "required": true,
-            "type": "string"
+            "type": "choice",
+            "choices" : [ "fr-FR", "en-US", "en-GB", "de-DE", "es-ES", "it-IT" ]
         }
     ],
     "device_types": {},
