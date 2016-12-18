@@ -1,0 +1,4 @@
+dependencies : 
+* aplay
+* lib svox : libttspico-utils
+
